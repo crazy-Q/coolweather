@@ -23,6 +23,9 @@
 
         </activity>
 
+        <service android:name=".service.AutoUpdateService">
+
+        </service>
     </application>
 
 </manifest>

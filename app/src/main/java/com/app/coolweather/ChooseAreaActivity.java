@@ -265,8 +265,8 @@ public class ChooseAreaActivity extends Activity {
             queryProvinces();
         } else if (currentLevel == LEVEL_PROVINCE) {
             doubleClicked++;
+            Toast.makeText(ChooseAreaActivity.this, "再点一次即可退出", Toast.LENGTH_SHORT).show();
             if (doubleClicked >= 2) {
-                Toast.makeText(ChooseAreaActivity.this, "再点一次即可退出", Toast.LENGTH_SHORT).show();
                 finish();
             }
         } else {
